@@ -1,0 +1,13 @@
+Game
+    starter (sudoku)
+    games (Trial)
+        new-Game (create Trial (original variant))
+        Trial.auto-solve  call  - true = solved ; false = not-solvable
+
+
+    Trial
+        trials (array)
+            Sudoku  (all of sudoku properties)
+            sudokuData (1...n)   (can test the trials/tryouts here)
+            tryouts (1...n)  (fill-blocks)
+            auto-solve    (find fill-blocks, get list of tryouts)
